@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 2000px) {
     .app__specialMenu-menu {
-        width: 650px;
+        width: 100%;
     }
 
     .app__specialMenu-menu_img img {
