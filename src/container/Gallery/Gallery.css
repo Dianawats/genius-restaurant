@@ -66,14 +66,18 @@
   transition: 0.5s ease;
 }
 
-/* .gallery__image-icon {
+.gallery__image-icon {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the icon */
   color: #fff;
   font-size: 2rem;
-  opacity: 0.5;
-  transition: .5s ease;
+  opacity: 0; /* Hidden by default */
+  transition: 0.5s ease;
   cursor: pointer;
-} */
+  z-index: 2;
+}
 
 .app__gallery-images_card:hover img {
   opacity: 0.35;
